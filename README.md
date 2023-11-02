@@ -1,5 +1,3 @@
 # learn-shell
 
-shell scripting topics:
-...................
-varma 
+list of shell scripting topics : 
