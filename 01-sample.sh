@@ -1,4 +1,4 @@
-color = "\e[31m"
+color= "\e[31m"
 
 echo jagadeesh varma
 echo -e "\e[32m jagadeesh varma \e[0m"
