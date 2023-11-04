@@ -10,3 +10,6 @@ echo -e "\e[31m salaar bhai is coming \e[0m"
 echo -e "\e[32m kosss jagadessh varma \e[0m"
 echo -e "\e[34m installing nginx /e[0m"
 echo -e "\e[34m installing nginx \e[0m"
+echo -e "\e[31m dont give up \e[0m"
+
+
