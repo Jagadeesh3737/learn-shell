@@ -16,7 +16,7 @@ ls
 pwd
 mkdir expense
 
-  if [ $? =! 0 ]; then
+  if [ $? -ne 0 ]; then
     useradd expense
   if { $? -eq 0 }; then
     echo -e "\e[34m SUCCESS \e[0m"
