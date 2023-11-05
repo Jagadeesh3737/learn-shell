@@ -13,6 +13,7 @@ echo -e "${color} dont give up \e[0m"
 echo -e "\e[34m jagadeesh varma \e[0m"
 
 dnf module install nodejs -y
+echo $?
 if [ $? -eq 0 ]; then
   echo -e "\e[34m SUCCESS \e[0m"
 else
