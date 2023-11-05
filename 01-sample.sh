@@ -15,9 +15,12 @@ echo -e "\e[34m jagadeesh varma \e[0m"
 ls
 pwd
 mkdir expense
-mkdir expense
-if [ $? -eq 0 ]; then
-  echo -e "\e[34m SUCCESS \e[0m"
-else
-  echo -e "\e[31m FAILURE \e[0m"
-fi
+
+  if [ $? =! 0 ]; then
+    useradd expense
+  if { $? -eq 0 }; then
+    echo -e "\e[34m SUCCESS \e[0m"
+  else
+    echo -e "\e[31m FAILURE \e[0m"
+   fi
+  fi
