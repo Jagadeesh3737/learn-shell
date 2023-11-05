@@ -10,5 +10,6 @@ echo -e "${color2} salaar bhai is coming \e[0m"
 echo -e "${color} installing nginx \e[0m"
 echo -e "${color2} installing nginx \e[0m"
 echo -e "${color} dont give up \e[0m"
+echo -e "\e[34m jagadeesh varma \e[0m"
 
 
