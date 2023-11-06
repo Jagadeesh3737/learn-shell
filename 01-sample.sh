@@ -18,7 +18,7 @@ mkdir expense
 
   if [ $? -ne 0 ]; then
     useradd expense
-  if { $? -eq 0 }; then
+  if { $? -eq 0 }; thenc
     echo -e "\e[34m SUCCESS \e[0m"
   else
     echo -e "\e[31m FAILURE \e[0m"

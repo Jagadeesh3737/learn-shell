@@ -10,3 +10,4 @@ list of shell scripting topics :
 6 . quotes
 7 . sed editor
 8 . exit status
+dfbjf f kjfdkv fd vfv fvfv f bv
