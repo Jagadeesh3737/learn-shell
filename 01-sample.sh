@@ -31,7 +31,7 @@
   # while loop :
   #
 a=10
-while [ "$a" -ge 10 ]; do
+while [ "$a" -ge 1 ]; do
       echo jagadeesh varma
       a=$(("$a" - 1))
 done
