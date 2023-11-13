@@ -59,3 +59,8 @@ for bike in pulsar suzuki honda access bmw ktm duke ns bullet bajaj ; do
   echo favoutie bikes - $bike
   sleep 1
 done
+
+for cricketer in dhoni kohli rohit dhawan raina gill jadega bravo ; do
+  echo my favoutie crickters - $cricketer1
+  sleep 1
+done
