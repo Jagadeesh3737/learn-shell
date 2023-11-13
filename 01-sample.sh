@@ -16,14 +16,14 @@ ls
 pwd
 mkdir expense
 
-  if [ $? -ne 0 ]; then
-    useradd expense
-  if { $? -eq 0 }; thenc
-    echo -e "\e[34m SUCCESS \e[0m"
-  else
-    echo -e "\e[31m FAILURE \e[0m"
-   fi
-  fi
+#  if [ $? -ne 0 ]; then
+ #   useradd expense
+  #if { $? -eq 0 }; thenc
+   # echo -e "\e[34m SUCCESS \e[0m"
+  #el3se
+   # echo -e "\e[31m FAILURE \e[0m"
+   #3fi
+  #fi
 
   # there 4 types of loops
  # while loop
