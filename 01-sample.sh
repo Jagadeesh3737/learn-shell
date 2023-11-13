@@ -50,7 +50,7 @@ while [ "$b" -le 9 ]; do
   sleep 1
 done
 
-for fruits in mango apple banana tomato kaaju ; do
+for fruit in mango apple banana tomato kaaju ; do
   echo fruit name - $fruit
   sleep 1
 done
