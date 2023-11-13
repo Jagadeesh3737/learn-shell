@@ -47,7 +47,7 @@ while [ "$b" -le 1 ]; do
   echo no im not lessthan
 done
 b=8
-while ["$b" -le 15 ]; do
+while [ "$b" -le 15 ]; do
   echo yes
   b=$(("$b" - 1))
   sleep 1
