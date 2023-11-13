@@ -24,3 +24,14 @@ mkdir expense
     echo -e "\e[31m FAILURE \e[0m"
    fi
   fi
+
+  # there 4 types of loops
+ # while loop
+ # for loop
+  # while loop :
+  #
+a=10
+while [  "a" -ge 10 ]; do
+      echo jagadeesh varma
+      a=$(("$a" - 1))
+done
