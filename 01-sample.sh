@@ -45,10 +45,11 @@ done
 b=8
 while [ "$b" -le 1 ]; do
   echo no im not lessthan
+  b=4(("b" - 1))
 done
 b=8
-while [ "$b" -le 15 ]; do
+while [ "$b" -le 9 ]; do
   echo yes
-  b=$(("$b" - 1))
+  b=$(("$b" + 1))
   sleep 1
 done
