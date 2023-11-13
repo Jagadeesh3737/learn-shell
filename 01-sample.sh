@@ -54,3 +54,8 @@ for fruit in mango apple banana tomato kaaju ; do
   echo fruit name - $fruit
   sleep 1
 done
+
+for bike in pulsar suzuki honda access bmw ktm duke ns bullet bajaj ; do
+  echo favoutie bikes - $bike
+  sleep 1
+done
