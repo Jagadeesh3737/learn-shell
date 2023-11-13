@@ -42,14 +42,15 @@ while [ "$k" -ge  1 ]; do
   k=$(("$k" - 1))
 
 done
-b=8
-while [ "$b" -le 1 ]; do
-  echo no im not lessthan
-  b=$(("$b" - 1))
-done
+
 b=8
 while [ "$b" -le 9 ]; do
   echo yes
   b=$(("$b" + 1))
+  sleep 1
+done
+
+for fruits in mango apple banana tomato kaaju ; do
+  echo fruit name - $fruit
   sleep 1
 done
