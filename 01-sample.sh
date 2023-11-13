@@ -34,9 +34,11 @@ a=10
 while [ "$a" -ge 1 ]; do
       echo jagadeesh varma
       a=$(("$a" - 1))
+      sleep 2
 done
 k=25
 while [ "$k" -ge  1 ]; do
   echo be patience
   k=$(("$k" - 1))
   sleep 1
+  done
