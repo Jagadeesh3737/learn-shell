@@ -45,7 +45,7 @@ done
 b=8
 while [ "$b" -le 1 ]; do
   echo no im not lessthan
-  b=4(("b" - 1))
+  b=$(("$b" - 1))
 done
 b=8
 while [ "$b" -le 9 ]; do
