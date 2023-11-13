@@ -47,20 +47,20 @@ b=8
 while [ "$b" -le 9 ]; do
   echo yes
   b=$(("$b" + 1))
-  sleep 1
+
 done
 
 for fruit in mango apple banana tomato kaaju ; do
   echo fruit name - $fruit
-  sleep 1
+
 done
 
 for bike in pulsar suzuki honda access bmw ktm duke ns bullet bajaj ; do
   echo favoutie bikes - $bike
-  sleep 1
+
 done
 
 for cricketer in dhoni kohli rohit dhawan raina gill jadega bravo ; do
-  echo my favoutie crickters - $cricketer1
+  echo my favoutie crickters - $cricketer
   sleep 1
 done
