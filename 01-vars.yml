@@ -35,3 +35,35 @@
         msg: "{{ URL4 }}"
       vars:
         URL4: sample.com
+    - name: print URL5 variable
+      ansible.builtin.debug:
+        msg: "{{ URL5 }}"
+      vars:
+        URL5: sample.com
+    - name: print URL6 variable
+      ansible.builtin.debug:
+        msg: "{{ URL6 }}"
+      vars:
+        URL6: sample.com
+    - name: print URL7 variable varma
+      ansible.builtin.debug:
+        msg: "{{ URL7 }}"
+      vars:
+        URL7: sample.com
+    - name: print URL8 variable
+      ansible.builtin.debug:
+        msg: "{[ URL8 }}"
+      vars:
+        URL8: sample.com
+    - name: print url9 variable
+      ansible.builtin.debug:
+        msg: "{{ URL9 }}"
+      vars:
+        URL9: sample.com
+    - name: print URL10 variable
+      ansible.builtin.debug:
+        msg: "{{ URL10 }}"
+      vars:
+        URL10: sample.com
+
+
