@@ -66,4 +66,14 @@
       vars:
         URL10: sample.com
 
+- name: register varable example
+  hosts: localhost
+  tasks:
+    - name: get uptime of the server
+      ansible.builtin.shell: uptime
+      register: out
+    - name: print out variable
+      ansible.builtin.debug:
+        msg: "{{ out }}"
+
 
