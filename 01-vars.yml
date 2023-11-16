@@ -24,3 +24,14 @@
         msg: "{{ URL2 }}"
       vars:
         URL2: sample.com
+
+    - name: print URL3 variable
+      ansibile.builtin.debug:
+        msg: "{{ URL3 }}"
+      vars:
+        URL3: sample.com
+    - name: print URL4 variable
+      ansible.builtin.debug:
+        msg: "{{ URL4 }}"
+      vars:
+        URL4: sample.com
