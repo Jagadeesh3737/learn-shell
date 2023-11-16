@@ -1,0 +1,30 @@
+root:x: 0:0: root:/root:/bin/bash
+bin:x:1:1:bin:/bin: /sbin/nologin
+daemon: x: 2:2:daemon: / sbin:/sbin/nologin
+adm:x::4: adm: /var/adm: /sbin/nologin
+
+SED - editior
+* replace and delete your lines
+* delete your lines
+* add your lines
+* replace your lines
+ s - for substitue
+ d - for delete
+ i - for modify the file
+ a - for adding the lines
+
+# sed 's/nologin/yeslogin/' varma
+to modify the file
+we use -i option to sed command ,else it does only change in output
+
+
+root:x: 0:0: root:/root:/bin/bash
+bin:x:1:1:bin:/bin: /sbin/nologin
+daemon: x: 2:2:daemon: / sbin:/sbin/nologin
+adm:x::4: adm: /var/adm: /sbin/nologin
+
+we have to do repplace root with admin
+# sed 's/root/admin/' varma
+
+if you want to delete the word or line
+then# sed '2d' varma
